@@ -93,10 +93,24 @@ button {
 }
 
 
-
-
 .secondScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
+.secondScreen-triblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button-div {
+  margin-top: 4vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .schedule-call {
@@ -109,4 +123,27 @@ button {
 
 .FAQ {
 
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 23vw;
+  height: 50vh;
+
+  border: 3px gold solid;
+  border-radius: 25px;
+  margin: 0 1vw;
+  padding: 1vh;
+  background-color: whitesmoke;
+}
+
+.box p {
+  font-size: large;
+}
+
+.icon {
+  max-width: 5vw;
 }
