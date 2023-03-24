@@ -32,9 +32,55 @@
 .content-box {
   width: 80vw;
   margin: 2vh 2vw;
-  outline: green 1px solid;
+  border: green 1px solid;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstScreen-textandpic {
+  display: flex;
+  margin: 1vw;
+  
+}
+
+.intro-textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 1vw;
+  padding: 1vw;
+
+  border: gold 3px solid;
+  border-radius: 15px;
+}
+
+.intro-textbox h2 {
+  max-width: 40vw;
+  display: flex;
+  justify-content: center
+}
+
+
+.get-started-button {
+  margin-top: 5vh;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(0, 195, 255, 0.859);
+  color: white;
+  font-weight: bold;
 }
 
 .herdman-pic {
-  max-width: 20vw;
+  max-width: 15.5vw;
+  border-radius: 15px;
+  border: gold 3px solid;
 }
