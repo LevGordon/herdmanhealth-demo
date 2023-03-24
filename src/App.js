@@ -58,7 +58,7 @@ function App() {
 
       </div>
         <div className='button-div'>
-          <button>PROCEED TO HERDMANHEALTH</button>
+          <button onClick={() => setTutorialDisplayed(false)}>PROCEED TO HERDMANHEALTH</button>
         </div>
 
 
@@ -76,7 +76,7 @@ function App() {
           <img className="website-leftbar" src={leftbar} alt="herdman leftbar"/>
           { tutorialDisplayed === true ? (<div className='content-box'>
             { currentPage === "first" ? firstScreen : secondScreen }
-          </div>) : <img src={website} alt="typical herdmanhealth website look"/>}
+          </div>) : <img className='website-look' src={website} alt="typical herdmanhealth website look"/>}
         </div>
         
       </header>

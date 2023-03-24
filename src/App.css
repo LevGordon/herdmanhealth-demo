@@ -22,8 +22,13 @@
   max-width: 100vw;
 }
 
+.website-look {
+  max-width: 87vw;
+  max-height: 90vh;
+}
+
 .website-leftbar {
-  max-width: 13vw;
+  max-width: 14vw;
   max-height: 90vh;
   margin: 0;
   padding: 0;
